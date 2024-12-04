@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Automatic-Module-Name: com.st.stm32cube.ide.mcu.externaltools.gnu-tools-
+ for-stm32.11.3.rel1.linux64
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Fragment-Host: com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm3
+ 2.11.3.rel1
+Bundle-SymbolicName: com.st.stm32cube.ide.mcu.externaltools.gnu-tools-fo
+ r-stm32.11.3.rel1.linux64;singleton:=true
+Bundle-Localization: fragment
+Bundle-Version: 1.1.1.202309131626
+Bundle-Vendor: %providerName
+Require-Bundle: org.eclipse.ui,org.eclipse.core.runtime,com.st.stm32cube
+ .ide.mcu.informationcenter
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Eclipse-PlatformFilter: (& (osgi.os=linux) (osgi.arch=x86_64))
+Eclipse-BundleShape: dir
+
